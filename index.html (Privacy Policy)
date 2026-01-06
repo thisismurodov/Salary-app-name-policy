@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxfiylik Siyosati</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1976D2;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        .date {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        p, li {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        ul {
+            padding-left: 25px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Maxfiylik Siyosati</h1>
+        <p class="date">Oxirgi yangilanish: 2026-yil 5-yanvar</p>
+
+        <h2>1. Ma'lumotlar To'plash</h2>
+        <p>Bizning ilovamiz quyidagi ma'lumotlarni to'playdi:</p>
+        <ul>
+            <li>Telefon raqami (kirish uchun)</li>
+            <li>Kompaniya nomi</li>
+            <li>Hodimlar ma'lumotlari (ism, yosh, jinsi, telefon)</li>
+            <li>Mahsulot ma'lumotlari (nom, narx, hisob turi)</li>
+            <li>Ish jurnali (kunlik ishlar, avanslar, bonuslar, jarimalar)</li>
+        </ul>
+
+        <h2>2. Ma'lumotlar Saqlash</h2>
+        <p>Barcha ma'lumotlar xavfsiz Supabase bulutida saqlanadi. Sizning ma'lumotlaringiz faqat sizning kompaniyangizga tegishli va boshqa foydalanuvchilar ularga kira olmaydi.</p>
+
+        <h2>3. Ma'lumotlardan Foydalanish</h2>
+        <p>To'plangan ma'lumotlar faqat quyidagi maqsadlarda ishlatiladi:</p>
+        <ul>
+            <li>Ishchilar maoshi va ishini hisoblash</li>
+            <li>Oylik hisobotlar yaratish</li>
+            <li>PDF va CSV eksport</li>
+            <li>Telegram orqali bildirishnomalar yuborish</li>
+        </ul>
+
+        <h2>4. Ma'lumotlarni Ulashish</h2>
+        <p>Biz sizning shaxsiy ma'lumotlaringizni hech qachon uchinchi tomonlar bilan bo'lishmаymiz, sotmaymiz yoki ijaraga bermaymiz.</p>
+
+        <h2>5. Foydalanuvchi Huquqlari</h2>
+        <p>Siz quyidagi huquqlarga egasiz:</p>
+        <ul>
+            <li>O'z ma'lumotlaringizni ko'rish</li>
+            <li>Ma'lumotlaringizni tahrirlash</li>
+            <li>Ma'lumotlaringizni o'chirish (akkauntni o'chirish)</li>
+            <li>Ma'lumotlaringizni eksport qilish (CSV/PDF)</li>
+        </ul>
+
+        <h2>6. Xavfsizlik</h2>
+        <p>Biz ma'lumotlaringiz xavfsizligini ta'minlash uchun zamonaviy shifrlash texnologiyalaridan foydalanamiz. Barcha ma'lumotlar HTTPS orqali uzatiladi.</p>
+
+        <h2>7. Farzandlar Maxfiyligi</h2>
+        <p>Bizning ilovamiz 18 yoshdan kichik bolalar uchun mo'ljallanmagan. Biz bilgan holda 18 yoshdan kichiklar ma'lumotlarini to'plamaymiz.</p>
+
+        <h2>8. Aloqa</h2>
+        <p>Agar maxfiylik siyosati haqida savollaringiz bo'lsa, biz bilan bog'laning:</p>
+        <p><strong>Email:</strong> contact@onspace.ai</p>
+
+        <div class="footer">
+            <p>&copy; 2026 Salary Calculator App. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </div>
+</body>
+</html>
